@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round", "Quicksand", sans-serif;
+  background-color: rgb(230, 65, 65);
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url('ourimage.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+.wrap {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.5em;
+  color: #fdfdfd;
+  margin-bottom: 5px;
+}
+
+.postcard1,
+.postcard {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  transform: rotate(2.5deg);
+}
+
+
+
+.postcard {
+  background: rgba(255, 255, 255, 0.101);
+}
+
+.letter p {
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: 540;
+}
+
+.letter p span {
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  color: #800020;
+}
+
+footer {
+  margin: 2em auto;
+  text-align: center;
+  font-family: "Varela Round", "Quicksand", sans-serif;
+  color: white;
+}
+
+footer p {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
